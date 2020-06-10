@@ -4,7 +4,7 @@ import './App.css';
 function App(props) {
   return (
     <div>
-      Hello world from Pakistan again {props.name}
+      Hello world from Pakistan again {props.name} Age ={props.age}
     </div>
   );
 }
