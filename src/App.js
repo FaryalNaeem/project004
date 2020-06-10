@@ -3,13 +3,12 @@ import './App.css';
 import hello from "./hello.js";
 
 function App({name,age}) {
-  return (
+  return
     <div>
       Hello world from Pakistan again {name} Age ={age-2}
       <br/>
       <hello></hello>
     </div>
-  );
 }
 
 export default App;
