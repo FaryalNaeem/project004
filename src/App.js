@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 import hello from "./hello.js";
-const Hi= (name)=> "Hello World" +name;
-function Hi(name){
-    return "Hello world" +name;
+const Hi= ({name})=> "Hello World" +name;
+function Hi({name}){
+    return "Hello World" +name;
 }
 
 function App({name,age}) {
