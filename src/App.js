@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import hello from "./hello";
+import hello from './hello';
 
 function App({name,age}) {
   return
