@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import hello from "./hello.js"
+import hello from "./hello.js";
 const Hi=({name})=>Hello World +name
 function hi({name}){
     return "Hello world"; +name
