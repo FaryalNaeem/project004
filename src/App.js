@@ -9,5 +9,4 @@ function App({name,age}) {
       <hello></hello>
     </div>
 }
-
 export default App;
