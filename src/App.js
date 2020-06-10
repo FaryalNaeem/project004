@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 
-function App() {
+function App(props) {
   return (
     <div>
-      Hello world from Pakistan again
+      Hello world from Pakistan again {props.name}
     </div>
   );
 }
