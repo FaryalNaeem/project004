@@ -1,10 +1,11 @@
 import React from 'react';
+import logo from './logo.svg'
 import './App.css';
 import hello from './hello';
 
 function App({name,age}) {
   return<div>
-      Hello world from Pakistan again {name} Age ={age-2}
+      Hello world from Pakistan again {name} {age}
       <br/>
       <hello></hello>
     </div>
