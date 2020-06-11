@@ -6,7 +6,7 @@ function App({name,age}) {
   return <div>
       Hello world from Pakistan again {name} {age}
       <br/>
-      <hello></hello>
+      <hello Firstname={name}></hello>
     </div>
 }
 export default App;
