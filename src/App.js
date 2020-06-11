@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import hello from './hello';
+import Hello from './Hello';
 
 Function App({name, age}) {
   return <div>
       Hello world from Pakistan again {name} {age}
       <br/>
-      <hello Firstname = {name}></hello>
+      <Hello Firstname = {name}></Hello>
     </div>
 }
 export default App;
