@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Hello(Firstname) {
-return  <p>This is para in hello tag name:{Firstname}</p> 
+function Hello() {
+return  <p>This is para in hello tag name</p> 
 }
 export default Hello;
