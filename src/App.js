@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Hello from './hello';
 
-Function App({name, age}) {
+function App({name, age}) {
   return <div>
       Hello world from Pakistan again {name} {age}
       <br/>
